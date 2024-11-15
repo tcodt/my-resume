@@ -1,0 +1,42 @@
+body {
+  font-family: "farsiFont";
+  background-color: #1a1a1d;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "farsiFont";
+  src: url("/fonts/IranSansX(Pro)/Webfonts/fonts/woff/IRANSansX-Medium.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "farsiFontScondary";
+  src: url("/fonts/IranSansX(Pro)/Old version/IRANSans5.5 (No support)/Farsi_numerals/IRANSans(FaNum)_Bold.ttf");
+}
+
+@font-face {
+  font-family: "farsiNum";
+  src: url("/fonts/IranSansX(Pro)/Farsi numerals/IRANSansXFaNum-DemiBold.ttf");
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #88888891;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

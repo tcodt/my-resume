@@ -1,0 +1,151 @@
+.custom-rotate-center {
+  -webkit-animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.custom-rotate {
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-suspended-animate-1 {
+  animation: suspended-1 9s linear infinite;
+}
+
+@keyframes suspended-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(50px, 25px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.custom-suspended-animate-2 {
+  animation: suspended-2 9s linear infinite;
+}
+
+@keyframes suspended-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-30px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.custom-suspended-animate-3 {
+  animation: suspended-3 9s linear infinite;
+}
+
+@keyframes suspended-3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(15px, 50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.custom-suspended-animate-4 {
+  animation: suspended-4 9s linear infinite;
+}
+
+@keyframes suspended-4 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-15px, -50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.custom-suspended-animate-5 {
+  animation: suspended-5 9s linear infinite;
+}
+
+@keyframes suspended-5 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-50px, -25px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.custom-suspended-animate-6 {
+  animation: suspended-6 9s linear infinite;
+}
+
+@keyframes suspended-6 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(50px, 25px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.custom-suspended-animate-7 {
+  animation: suspended-7 9s linear infinite;
+}
+
+@keyframes suspended-7 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(50px, 25px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

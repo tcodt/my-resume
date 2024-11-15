@@ -1,0 +1,17 @@
+#auto_type {
+  position: relative;
+}
+
+#auto_type::after {
+  content: "|";
+  position: absolute;
+  animation: blink 1s step-start infinite;
+  color: aqua;
+  font-size: 30px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
