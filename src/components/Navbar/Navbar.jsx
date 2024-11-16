@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <header className={animate}>
       <nav>
-        <ul className="flex items-center gap-8 p-4">
+        <ul className="flex items-center md:gap-8 gap-4 p-4">
           <li>
             <Link
               to="/"
@@ -28,7 +28,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/"
-              className="text-white text-lg font-medium custom-hover-menu flex items-center gap-2"
+              className="text-white md:text-lg text-xs font-medium custom-hover-menu flex items-center gap-2"
             >
               خانه <FaHouse size={20} />
             </Link>
@@ -36,7 +36,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/about"
-              className="text-white text-lg font-medium custom-hover-menu flex items-center gap-2"
+              className="text-white md:text-lg text-xs font-medium custom-hover-menu flex items-center gap-2"
             >
               درباره من <MdOutlineImportContacts size={20} />
             </Link>
@@ -44,7 +44,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/contact"
-              className="text-white text-lg font-medium custom-hover-menu flex items-center gap-2"
+              className="text-white md:text-lg text-xs font-medium custom-hover-menu flex items-center gap-2"
             >
               ارتباط با من <MdContactPhone size={20} />
             </Link>
