@@ -9,15 +9,15 @@ export default function Skills() {
   const skills = [
     { url: "/images/html.png", color: "bg-orange-500", percentage: "95%" },
     { url: "/images/css.png", color: "bg-blue-500", percentage: "90%" },
-    { url: "/images/js.webp", color: "bg-yellow-500", percentage: "80%" },
-    { url: "/images/react.png", color: "bg-sky-500", percentage: "80%" },
+    { url: "/images/js.webp", color: "bg-yellow-500", percentage: "85%" },
+    { url: "/images/react.png", color: "bg-sky-500", percentage: "90%" },
     {
       url: "/images/bootstrap.webp",
       color: "bg-violet-500",
       percentage: "95%",
     },
     { url: "/images/tailwind.webp", color: "bg-cyan-500", percentage: "95%" },
-    { url: "/images/redux.webp", color: "bg-purple-500", percentage: "75%" },
+    { url: "/images/redux.webp", color: "bg-purple-500", percentage: "80%" },
   ];
 
   return (
