@@ -26,7 +26,7 @@ export default function Skills() {
         <h3 className="text-2xl text-white font-semibold block mb-4">
           مهارت های کد نویسی
         </h3>
-        <BgBlur bgColor="bg-purple-500" sideY="-bottom-20" sideX="right-0" />
+        <BgBlur bgColor="bg-purple-500" sideY="-bottom-20" sideX="left-0" />
         <div className="flex flex-col gap-4" ref={ref}>
           {skills.length &&
             skills.map((skill, index) => (

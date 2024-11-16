@@ -43,7 +43,7 @@
 }
 
 .custom-suspended-animate-1 {
-  animation: suspended-1 9s linear infinite;
+  animation: suspended-1 7s linear infinite;
 }
 
 @keyframes suspended-1 {
@@ -51,7 +51,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(30px, 15px);
+    transform: translate(0, 15px);
   }
   100% {
     transform: translate(0, 0);
@@ -67,7 +67,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(-20px, -10px);
+    transform: translate(0, 10px);
   }
   100% {
     transform: translate(0, 0);
@@ -75,7 +75,7 @@
 }
 
 .custom-suspended-animate-3 {
-  animation: suspended-3 9s linear infinite;
+  animation: suspended-3 6s linear infinite;
 }
 
 @keyframes suspended-3 {
@@ -83,14 +83,14 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(10px, 20px);
+    transform: translate(0, 10px);
   }
   100% {
     transform: translate(0, 0);
   }
 }
 .custom-suspended-animate-4 {
-  animation: suspended-4 9s linear infinite;
+  animation: suspended-4 7s linear infinite;
 }
 
 @keyframes suspended-4 {
@@ -98,14 +98,14 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(-10px, -20px);
+    transform: translate(0, 15px);
   }
   100% {
     transform: translate(0, 0);
   }
 }
 .custom-suspended-animate-5 {
-  animation: suspended-5 9s linear infinite;
+  animation: suspended-5 8s linear infinite;
 }
 
 @keyframes suspended-5 {
@@ -113,14 +113,14 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(-30px, -15px);
+    transform: translate(0, 13px);
   }
   100% {
     transform: translate(0, 0);
   }
 }
 .custom-suspended-animate-6 {
-  animation: suspended-6 9s linear infinite;
+  animation: suspended-6 6s linear infinite;
 }
 
 @keyframes suspended-6 {
@@ -128,7 +128,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(20px, 10px);
+    transform: translate(0, 15px);
   }
   100% {
     transform: translate(0, 0);
@@ -143,7 +143,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(20px, 10px);
+    transform: translate(0, 15px);
   }
   100% {
     transform: translate(0, 0);
