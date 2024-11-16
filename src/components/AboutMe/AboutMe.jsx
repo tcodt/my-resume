@@ -9,7 +9,7 @@ export default function AboutMe() {
   });
 
   return (
-    <section className="container mx-auto mt-32">
+    <section className="container mx-auto mt-40">
       <div className="container mx-auto p-4 md:p-0">
         <h3 className="text-white text-2xl font-semibold mb-4 block">
           درباره من
@@ -30,7 +30,7 @@ export default function AboutMe() {
                     هدفم اینه که با کارایی که انجام میدم، دنیای دیجیتال رو یه
                     قدم بهتر کنم و همیشه دنبال راه‌های جدید برای بهبود و نوآوری
                     هستم. 😊"
-            className="text-xl text-white text-opacity-70 font-medium"
+            className="md:text-xl text-base text-white text-opacity-70 font-medium"
             speed={10}
           />
         </div>

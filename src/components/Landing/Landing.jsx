@@ -64,14 +64,14 @@ export default function Landing() {
             <img
               src="/images/js.webp"
               alt="JS"
-              className={`absolute md:bottom-0 -bottom-8 md:-right-16 -right-6 md:h-28 h-16 object-contain z-10 ${
+              className={`absolute md:bottom-0 -bottom-8 md:-right-16 -right-2 md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-3" : ""
               }`}
             />
             <img
               src="/images/react.png"
               alt="React"
-              className={`absolute md:bottom-0 -bottom-8 md:-left-16 -left-6 md:h-28 h-16 object-contain z-10 ${
+              className={`absolute md:bottom-0 -bottom-8 md:-left-16 -left-4 md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-4" : ""
               }`}
             />
@@ -92,7 +92,7 @@ export default function Landing() {
             <img
               src="/images/redux.webp"
               alt="Redux"
-              className={`absolute -bottom-16 left-[35%] md:h-28 h-20 object-contain z-10 ${
+              className={`absolute -bottom-16 md:left-[35%] left-[40%] md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-7" : ""
               }`}
             />
