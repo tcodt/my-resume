@@ -30,13 +30,13 @@ export default function Skills() {
         <div className="flex flex-col gap-4" ref={ref}>
           {skills.length &&
             skills.map((skill, index) => (
-              <div key={index} className="flex items-center gap-4">
+              <div key={index} className="flex items-center md:gap-4 gap-2">
                 <img
                   src={skill.url}
                   alt={skill.url}
-                  className="h-10 object-contain"
+                  className="md:h-10 h-8 object-contain"
                 />
-                <div className="bg-slate-500 bg-opacity-60 rounded-md w-full h-10">
+                <div className="bg-slate-500 bg-opacity-60 rounded-md w-full md:h-10 h-5">
                   <div
                     className={`${skill.color} h-full transition-all bg-opacity-75 rounded-md`}
                     style={{
