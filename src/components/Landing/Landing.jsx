@@ -23,7 +23,7 @@ export default function Landing() {
   };
 
   return (
-    <section className="mt-12">
+    <section className="mt-32 md:mt-12">
       <div className="relative">
         <BgBlur bgColor="bg-emerald-500" sideY="top-0" sideX="left-0" />
         <BgBlur bgColor="bg-red-500" sideY="bottom-0" sideX="right-0" />
@@ -46,53 +46,55 @@ export default function Landing() {
           >
             d
           </h2>
-          <div className={`relative ${animate1}`}>
+          <div
+            className={`relative w-full h-full flex items-center justify-center ${animate1}`}
+          >
             <img
               src="/images/html.png"
               alt="Html"
-              className={`absolute md:top-0 -top-8 md:-left-16 -left-6 md:h-28 h-16 object-contain z-10 ${
+              className={`absolute md:top-0 -top-8 md:left-28 left-6 md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-1" : ""
               }`}
             />
             <img
               src="/images/css.png"
               alt="CSS"
-              className={`absolute md:top-0 -top-8 md:-right-16 -right-6 md:h-28 h-16 object-contain z-10 ${
+              className={`absolute md:top-0 -top-8 md:right-28 right-6 md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-2" : ""
               }`}
             />
             <img
               src="/images/js.webp"
               alt="JS"
-              className={`absolute md:bottom-0 -bottom-8 md:-right-16 -right-2 md:h-28 h-16 object-contain z-10 ${
+              className={`absolute md:bottom-0 -bottom-8 md:right-28 right-6 md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-3" : ""
               }`}
             />
             <img
               src="/images/react.png"
               alt="React"
-              className={`absolute md:bottom-0 -bottom-8 md:-left-16 -left-4 md:h-28 h-16 object-contain z-10 ${
+              className={`absolute md:bottom-0 -bottom-8 md:left-28 left-6 md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-4" : ""
               }`}
             />
             <img
               src="/images/bootstrap.webp"
               alt="Bootstrap"
-              className={`absolute bottom-[35%] -right-6 md:h-28 h-16 object-contain z-10 ${
+              className={`absolute bottom-[35%] md:right-28 right-6 md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-5" : ""
               }`}
             />
             <img
               src="/images/tailwind.webp"
               alt="Tailwind"
-              className={`absolute bottom-[35%] -left-6 md:h-28 h-16 object-contain z-10 ${
+              className={`absolute bottom-[35%] md:left-28 left-6 md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-6" : ""
               }`}
             />
             <img
               src="/images/redux.webp"
               alt="Redux"
-              className={`absolute -bottom-16 md:left-[35%] left-[40%] md:h-28 h-16 object-contain z-10 ${
+              className={`absolute -bottom-16 md:left-[45%] left-[40%] md:h-28 h-16 object-contain z-10 ${
                 isPlaying ? "custom-suspended-animate-7" : ""
               }`}
             />

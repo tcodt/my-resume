@@ -67,7 +67,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(-30px, -15px);
+    transform: translate(-20px, -10px);
   }
   100% {
     transform: translate(0, 0);
@@ -83,7 +83,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(15px, 30px);
+    transform: translate(10px, 20px);
   }
   100% {
     transform: translate(0, 0);
@@ -98,7 +98,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(-15px, -30px);
+    transform: translate(-10px, -20px);
   }
   100% {
     transform: translate(0, 0);
@@ -128,7 +128,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(30px, 15px);
+    transform: translate(20px, 10px);
   }
   100% {
     transform: translate(0, 0);
@@ -143,7 +143,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(30px, 15px);
+    transform: translate(20px, 10px);
   }
   100% {
     transform: translate(0, 0);

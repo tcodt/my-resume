@@ -4,7 +4,7 @@ import BgBlur from "../BgBlur/BgBlur";
 
 export default function AboutMe() {
   const { ref, inView } = useInView({
-    threshold: 0.5,
+    threshold: 0.8,
     triggerOnce: true,
   });
 
