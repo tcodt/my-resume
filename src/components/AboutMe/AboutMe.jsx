@@ -2,14 +2,14 @@ import { useInView } from "react-intersection-observer";
 import AutoType from "../AutoType/AutoType";
 import BgBlur from "../BgBlur/BgBlur";
 
-export default function AboutMe() {
+export default function AboutMe({ aboutPage }) {
   const { ref, inView } = useInView({
     threshold: 1,
     triggerOnce: true,
   });
 
   return (
-    <section className="container mx-auto mt-40">
+    <section className={`${aboutPage ? "mt-0" : "mt-40"}`}>
       <div className="container mx-auto p-4 md:p-0">
         <h3 className="text-white text-2xl font-semibold mb-4 block">
           درباره من

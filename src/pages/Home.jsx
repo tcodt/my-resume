@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <>
       <Landing />
-      <AboutMe />
+      <AboutMe aboutPage={false} />
       <Skills />
-      <ContactMe />
+      <ContactMe contactPage={false} />
       <Footer />
     </>
   );

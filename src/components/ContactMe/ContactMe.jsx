@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 
-export default function ContactMe() {
+export default function ContactMe({ contactPage }) {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -55,7 +55,7 @@ export default function ContactMe() {
   };
 
   return (
-    <section className="mt-32">
+    <section className={`${contactPage ? "mt-0" : "mt-32"}`}>
       <div className="container mx-auto p-4 md:p-0">
         <h4 className="text-white text-xl font-semibold block mb-4">
           ارتباط با من
