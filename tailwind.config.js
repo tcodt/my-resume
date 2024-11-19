@@ -7,6 +7,7 @@ export default {
         purple: "4px 4px 10px #d946ef",
         blue: "4px 4px 10px #0ea5e9",
         green: "4px 4px 10px #22c55e",
+        dark: "4px 4px 10px #f8fafc",
       },
     },
   },
